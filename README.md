@@ -1,4 +1,6 @@
-# Middleman + Ember + Bower Starter Project
+# Middleman + Ember + Bower Template
+
+A Middleman template for getting started with Ember and Bower
 
 ## Why?
 
@@ -25,27 +27,52 @@ source/
     index.html.erb
 ```
 
-## How to Use
+## Installation
 
-###### 1. Make your own copy
+```bash
+cd ~/.middleman
+mkdir ember-bower
+cd ember-bower
+git clone git@github.com:alexlafroscia/middleman-ember-starter.git .
+```
 
-1. Fork the project
-2. Clone your fork
+**Note:** Remember the dot at the end of the `git clone` command!
 
-###### 2. Bundle
+## Usage
+
+### Creating a new project
+
+```bash
+middleman init my_project --template=ember-bower
+```
+
+This will create a fresh project for you, based on this template!
+
+### Set Up
+
+As a quick overview of the commands involved in getting things installed
+
+#### Installing Dependencies
 
 ```bash
 bundle install
-```
-
-###### 3. Bower
-
-```bash
 bower install
 ```
 
-###### 4. Create
+#### Running the Server
 
 ```bash
 middleman server
 ```
+Starts server at `localhost:4567`
+
+or 
+
+```bash
+middleman -p 3000
+```
+Starts server at `localhost:3000`
+
+***
+
+Questions/Comments/Suggestions? Come find me on [Twitter](http://www.twitter.com/alexlafroscia) or send me an email!
