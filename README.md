@@ -4,8 +4,8 @@
 
 ###### 1. Make your own copy
 
-1a. Fork the project
-1b. Clone your fork
+1. Fork the project
+2. Clone your fork
 
 ###### 2. Bundle
 
