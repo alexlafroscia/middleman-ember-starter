@@ -34,9 +34,11 @@ cd ~/.middleman
 mkdir ember-bower
 cd ember-bower
 git clone git@github.com:alexlafroscia/middleman-ember-starter.git .
+git remote rm origin
 ```
-
 **Note:** Remember the dot at the end of the `git clone` command!
+
+That last command is in there to remove the connection to this repository, as you'll probably want to replace the origin with your own.  You're also free to download the project as a .zip and place the files manually in the `.middleman/ember-bower` directory, that would work just as well.
 
 ## Usage
 
@@ -45,7 +47,6 @@ git clone git@github.com:alexlafroscia/middleman-ember-starter.git .
 ```bash
 middleman init my_project --template=ember-bower
 ```
-
 This will create a fresh project for you, based on this template!
 
 ### Set Up
