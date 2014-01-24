@@ -33,11 +33,11 @@ source/
 cd ~/.middleman
 mkdir ember-bower
 cd ember-bower
-git clone git@github.com:alexlafroscia/middleman-ember-starter.git . && git remote rm origin
+git clone git@github.com:alexlafroscia/middleman-ember-starter.git . && rm -rf .git
 ```
 **Note:** Remember the dot at the end of the `git clone` command!
 
-That last command is in there to remove the connection to this repository, as you'll probably want to replace the origin with your own.  You're also free to download the project as a .zip and place the files manually in the `.middleman/ember-bower` directory, that would work just as well.
+**Note 2:** The last command will clone the project and then remove the git repository, so that you're no longer tied to this project as a remote.  If you clone from here, I highly recommend doing this step, or at least removing the remote connection with `git remote rm origin`.  You can also just download and unzip the project into that directory, that would work just as well.
 
 ## Usage
 
