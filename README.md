@@ -2,11 +2,10 @@
 
 ## How to Use
 
-###### 1. Clone
+###### 1. Make your own copy
 
-```bash
-git@github.com:alexlafroscia/middleman-ember-starter.git 
-```
+1a. Fork the project
+1b. Clone your fork
 
 ###### 2. Bundle
 
