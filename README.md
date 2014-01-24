@@ -33,8 +33,7 @@ source/
 cd ~/.middleman
 mkdir ember-bower
 cd ember-bower
-git clone git@github.com:alexlafroscia/middleman-ember-starter.git .
-git remote rm origin
+git clone git@github.com:alexlafroscia/middleman-ember-starter.git . && git remote rm origin
 ```
 **Note:** Remember the dot at the end of the `git clone` command!
 
