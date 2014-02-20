@@ -16,12 +16,12 @@ source/
         controllers/
         models/
         routes/
-            router.js
         templates/
             application.hbs.erb
         views/
-        application.js
-        main.js
+        application.js.coffee
+        main.js.coffee
+        router.js.coffee
     layouts/
     stylesheets/
     index.html.erb
@@ -29,15 +29,17 @@ source/
 
 ## Installation
 
-```bash
-cd ~/.middleman
-mkdir ember-bower
-cd ember-bower
-git clone git@github.com:alexlafroscia/middleman-ember-starter.git . && rm -rf .git
-```
-**Note:** Remember the dot at the end of the `git clone` command!
+Check out the [release page](https://github.com/alexlafroscia/middleman-ember-starter/releases) and download the latest one.  You can also download a .zip archive of the current master branch from [here](https://github.com/alexlafroscia/middleman-ember-starter/archive/master.zip).
 
-**Note 2:** The last command will clone the project and then remove the git repository, so that you're no longer tied to this project as a remote.  If you clone from here, I highly recommend doing this step, or at least removing the remote connection with `git remote rm origin`.  You can also just download and unzip the project into that directory, that would work just as well.
+Unzip the project and move it into the directory `~/.middleman`.  That's it!
+
+Alternatively, if you want to use Git to install the template, navigate into `~/.middleman` and run the command from there
+
+```bash
+git@github.com:alexlafroscia/middleman-ember-starter.git
+rm -rf .git
+```
+Make sure to run both commands, or else the `.git` directory will get copied into all of your new projects as well, and I'm sure you don't want that!
 
 ## Usage
 
