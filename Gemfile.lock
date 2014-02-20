@@ -118,3 +118,4 @@ DEPENDENCIES
   middleman-sprockets (~> 3.2.0)
   rack-contrib
   sprockets-handlebars_template
+  wdm (~> 0.1.0)
