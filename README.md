@@ -31,12 +31,14 @@ source/
 
 Check out the [release page](https://github.com/alexlafroscia/middleman-ember-starter/releases) and download the latest one.  You can also download a .zip archive of the current master branch from [here](https://github.com/alexlafroscia/middleman-ember-starter/archive/master.zip).
 
-Unzip the project and move it into the directory `~/.middleman`.  That's it!
+Unzip the project and move it into the directory `~/.middleman`.  You may also want to rename the directory to `ember-bower`, so make it easier to remember (and to match my example).
 
 Alternatively, if you want to use Git to install the template, navigate into `~/.middleman` and run the command from there
 
 ```bash
 git@github.com:alexlafroscia/middleman-ember-starter.git
+mv middleman-ember-starter ember-bower
+cd ember-bower
 rm -rf .git
 ```
 Make sure to run both commands, or else the `.git` directory will get copied into all of your new projects as well, and I'm sure you don't want that!
